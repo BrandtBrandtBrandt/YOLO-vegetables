@@ -1,15 +1,27 @@
-# YOLO-vegetables
+# YOLO-Vegetables
 
-This is a small personal project where I trained a YOLO model on a custom dataset of vegetables. The goal was to explore object detection in a specialized context, using custom-labeled data.
+This is a small personal project where I trained a YOLO model on a custom dataset consisting of vegetables. The goal was to explore object detection using custom-labeled data.
 
 Overview
 
-	•	Dataset: The dataset consists of various vegetable images, annotated using Roboflow for labeling and preprocessing.
+	•	Dataset: The dataset consists of various vegetable images, annotated using Roboflow.
 	•	Model: YOLO (You Only Look Once) was selected as the object detection model for its speed and performance.
-	•	Training: The model was trained using Google Colab to take advantage of its free GPU resources.
+	•	Training: The model was trained using Google Colab to leverage free GPU resources.
+
+Files in this Repository
+
+	•	best_yolov11s_100epochs.pt: The trained YOLOv11 model, saved after 100 epochs.
+	•	YOLO_vegetables.ipynb: The Jupyter Notebook used for training the model in Google Colab, including data preparation, training routines, and evaluation.
+	•	main.py: A script to open the webcam and run real-time object detection using the trained YOLO model.
 
 Steps
 
-	1.	Data Collection: Gathered images of vegetables and organized them into a dataset.
+	1.	Data Collection: Images of vegetables were gathered and organized into a dataset.
 	2.	Annotation: Used Roboflow to annotate and prepare the data for YOLO training.
-	3.	Model Training: Trained the YOLO model in Google Colab, utilizing GPU acceleration for faster training times.
+	3.	Model Training: Trained the YOLO model in Google Colab, utilizing GPU acceleration for faster training.
+
+Real-Time Detection Showcase
+
+Below is a demonstration of the model in action, identifying various vegetables with real-time bounding boxes and labels.
+
+Embed or link to GIF or image here.
