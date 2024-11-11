@@ -19,9 +19,3 @@ Steps
 	1.	Data Collection: Images of vegetables were gathered and organized into a dataset.
 	2.	Annotation: Used Roboflow to annotate and prepare the data for YOLO training.
 	3.	Model Training: Trained the YOLO model in Google Colab, utilizing GPU acceleration for faster training.
-
-Real-Time Detection Showcase
-
-Below is a demonstration of the model in action, identifying various vegetables with real-time bounding boxes and labels.
-
-Embed or link to GIF or image here.
